@@ -1,0 +1,244 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Karla', sans-serif;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 18vh;
+   
+}
+
+.logo
+{   
+    margin-left: -13vw;
+    text-decoration: none;
+    color: #323A45;  
+    font-size: 18px;
+    line-height: 88px;
+    transition: color 0.15s ease-in-out 0s;
+}
+.logo:hover
+{
+    color: #848484;
+}
+ul{
+    list-style: none;
+    margin-right: -12vw;
+   
+}
+.link
+{   
+    text-decoration: none;
+    color: #323A45;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out 0s;
+}
+.link:hover
+{
+    color: #848484;
+}
+li{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 13px;
+    line-height: 88px;
+    letter-spacing: 0.2px;
+}
+.kanken
+{   width: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 30px;
+    margin-bottom: 9vh;
+}
+article
+{
+    background: #fcfafa;
+    width: 82vw;
+    height: 75vh;
+    margin-left: 9vw;
+    z-index: 0;
+    /* padding-bottom: 12vh; */
+   
+    
+}
+.Art_Laptop
+{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all .3s linear;
+    
+}
+.Art_Laptop:hover
+{
+    opacity: .1;
+}
+.link2
+{
+    text-decoration: none;
+    color: #323A45;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out 0s;
+}
+.produkt
+{   display: block;
+    font-size: 15px;
+    line-height: 88px;
+    letter-spacing: 0.2px;
+    margin-left: 0vw;
+
+}
+.price
+{
+    text-decoration: none;
+    color: #323A45;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out 0s;
+    margin-top: 4vh;
+    padding-left: 48vw;
+}
+section
+{   
+    display: flex;
+    justify-content: space-around;
+    margin-top: -2vh;
+   
+    
+}
+section ul li:nth-of-type(2)
+{
+   margin-top: -8vh;
+   opacity: .5;
+}
+.produkt:hover .Art_Laptop
+{
+    opacity: .1;
+
+}
+.swing
+{
+    height: 160vh;
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 9vw;  
+}
+.arm_wood
+{
+    width: 25vw;
+    transition: all .3s linear;
+}
+.produkt2
+{
+    display: block;
+    font-size: 15px;
+    line-height: 88px;
+    letter-spacing: 0.2px;
+    margin-left: -3vw;
+    
+}
+.price2
+{
+    text-decoration: none;
+    color: #323A45;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out 0s;
+    margin-top: 4vh;
+    padding-left: 18vw;
+    
+}
+
+.arm_wood:hover
+{
+    opacity: .1;
+
+}
+.dieter_rams
+{
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 30px;
+    margin-bottom: 8vh; 
+}
+.swing2
+{
+    height: 80vh;
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 9vw;  
+}
+.footer article
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    margin-top: 0;
+    height: 10vh;
+    margin-left: 5vh;
+}
+.footer article ul li
+{
+    display: block;
+    margin-left: -9vw;
+    margin-top: -8vh;
+
+}
+footer h2
+{
+    
+    font-size: 15px;
+}
+footer article h2:nth-of-type(2)
+{
+  
+   margin-left: 7vw;
+}
+footer article h2:nth-of-type(3)
+{
+    margin-right: 2vw;
+}
+footer article ul{
+    margin-left: 2vw;
+}
+footer article ul:nth-of-type(2)
+{
+    margin-left: 6vw;
+}
+footer article ul:nth-of-type(4)
+{
+   padding-right: 3vw;
+}
+footer p{
+    margin-left: 9vw;
+    opacity: .7;
+    margin-bottom: 3vh;
+}
+
+@media (max-width: 980px)
+{
+    
+}
+
+@media (max-width: 680px)
+{
+
+}
+@media (max-width: 480px)
+
+
+
